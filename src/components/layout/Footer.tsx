@@ -1,4 +1,4 @@
-import { Leaf, Heart, Award } from 'lucide-react';
+import { Leaf, Heart, Award } from "lucide-react";
 
 // X (Twitter) icon component
 const XIcon = ({ className }: { className?: string }) => (
@@ -27,52 +27,106 @@ export default function Footer() {
               <span className="text-xl font-bold">CleanMate</span>
             </a>
             <p className="text-muted-foreground max-w-sm mb-6">
-              Empowering communities across Africa to organize cleanups, build networks, and earn rewards for environmental impact.
+              Empowering communities across the Globe to organize cleanups,
+              build networks, and earn rewards for environmental impact.
             </p>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Heart className="w-4 h-4 text-foreground" />
               <span>Built with love for the planet</span>
             </div>
           </div>
-          
+
           <div>
             <h4 className="font-semibold mb-4 text-foreground/80">Platform</h4>
             <ul className="space-y-3 text-muted-foreground">
-              <li><a href="/#features" className="hover:text-foreground transition-colors">Features</a></li>
-              <li><a href="/#how-it-works" className="hover:text-foreground transition-colors">How It Works</a></li>
-              <li><a href="/#impact" className="hover:text-foreground transition-colors">Our Impact</a></li>
-              <li><a href="/#testimonials" className="hover:text-foreground transition-colors">Stories</a></li>
+              <li>
+                <a
+                  href="/#features"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#how-it-works"
+                  className="hover:text-foreground transition-colors"
+                >
+                  How It Works
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#impact"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Our Impact
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#testimonials"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Stories
+                </a>
+              </li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="font-semibold mb-4 text-foreground/80">Support</h4>
             <ul className="space-y-3 text-muted-foreground">
-              <li><a href="/help" className="hover:text-foreground transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Community</a></li>
-              <li><a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a></li>
-              <li><a href="/terms" className="hover:text-foreground transition-colors">Terms of Service</a></li>
+              <li>
+                <a
+                  href="/help"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-foreground transition-colors">
+                  Community
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/privacy"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/terms"
+                  className="hover:text-foreground transition-colors"
+                >
+                  Terms of Service
+                </a>
+              </li>
             </ul>
           </div>
         </div>
-        
+
         <div className="pt-6 lg:pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground text-center sm:text-left">
             © 2024 CleanMate. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">
-              <a 
-                href="https://x.com" 
-                target="_blank" 
+              <a
+                href="https://x.com"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-muted flex items-center justify-center hover:bg-foreground hover:text-background transition-colors"
               >
                 <XIcon className="w-4 h-4" />
               </a>
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
+              <a
+                href="https://instagram.com"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-muted flex items-center justify-center hover:bg-foreground hover:text-background transition-colors"
               >
@@ -81,7 +135,9 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-4 h-4 text-foreground" />
-              <span className="text-sm text-muted-foreground">Powered by VeChain & B3TR</span>
+              <span className="text-sm text-muted-foreground">
+                Powered by VeChain & B3TR
+              </span>
             </div>
           </div>
         </div>

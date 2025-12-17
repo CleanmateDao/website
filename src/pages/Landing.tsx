@@ -230,7 +230,7 @@ export default function Landing() {
 
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-lg">
                 Join thousands of environmental champions organizing cleanups
-                across Africa. Real impact, real crypto rewards.
+                across the Globe. Real impact, real crypto rewards.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
