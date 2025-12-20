@@ -1,6 +1,7 @@
-import { Leaf, Sun, Moon, Rocket } from "lucide-react";
+import { Sun, Moon, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/components/ThemeProvider";
+import logo from "@/assets/logo.png";
 
 export default function Header() {
   const { theme, setTheme } = useTheme();
@@ -14,9 +15,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex items-center justify-between">
           <a href="/" className="flex items-center gap-2 sm:gap-3">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-foreground flex items-center justify-center">
-              <Leaf className="w-4 h-4 sm:w-5 sm:h-5 text-background" />
-            </div>
+            <img src={logo} alt="CleanMate" className="h-8 sm:h-10 w-auto" />
             <span className="text-lg sm:text-xl font-bold tracking-tight">
               CleanMate
             </span>
