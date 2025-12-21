@@ -97,6 +97,10 @@
     --chart-3: 200 60% 50%;
     --chart-4: 280 45% 55%;
     --chart-5: 0 72% 51%;
+
+    --cleanmate-logo-color: #1a1a1a;
+    --cleanmate-logo-invariant-color: #1a1a1a;
+    --cleanmate-logo-invariant-bg: #ebebeb;
   }
 
   .dark {
@@ -155,6 +159,10 @@
 
     --glass-bg: hsl(0 0% 10% / 0.7);
     --glass-border: hsl(0 0% 20% / 0.5);
+
+    --cleanmate-logo-color: #ebebeb;
+    --cleanmate-logo-invariant-color: #ebebeb;
+    --cleanmate-logo-invariant-bg: #1a1a1a;
   }
 }
 

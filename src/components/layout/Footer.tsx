@@ -1,4 +1,5 @@
-import { Leaf, Heart, Award } from "lucide-react";
+import { Heart, Award } from "lucide-react";
+import CleanMateLogoInvariant from "../icons/logo-invariant";
 
 // X (Twitter) icon component
 const XIcon = ({ className }: { className?: string }) => (
@@ -21,10 +22,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12 mb-8 lg:mb-12">
           <div className="sm:col-span-2">
             <a href="/" className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-foreground flex items-center justify-center">
-                <Leaf className="w-5 h-5 text-background" />
-              </div>
-              <span className="text-xl font-bold">CleanMate</span>
+              <CleanMateLogoInvariant />
             </a>
             <p className="text-muted-foreground max-w-sm mb-6">
               Empowering communities across the Globe to organize cleanups,

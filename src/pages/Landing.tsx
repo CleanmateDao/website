@@ -35,15 +35,15 @@ const features = [
   },
   {
     icon: Users,
-    title: "Build Community",
+    title: "Daily Streaks",
     description:
-      "Connect with environmental champions and grow your impact together as a team.",
+      "Record 5-second videos of sustainable actions and earn B3TR rewards daily.",
   },
   {
     icon: Trophy,
     title: "Earn Rewards",
     description:
-      "Get B3TR tokens for every cleanup. Real environmental impact, real crypto rewards.",
+      "Get B3TR tokens for every cleanup and streak. Real environmental impact, real crypto rewards.",
   },
   {
     icon: Shield,
@@ -58,21 +58,20 @@ const howItWorks = [
     step: "01",
     title: "Create Your Profile",
     description:
-      "Sign up in under 2 minutes and tell us about your environmental interests.",
+      "Sign up in under 2 minutes and get your unique Streaker Code.",
     icon: Sparkles,
   },
   {
     step: "02",
     title: "Organize or Join",
     description:
-      "Create your own cleanup event or discover ones happening near you.",
+      "Create cleanups, join events, or record daily streaks on mobile.",
     icon: MapPin,
   },
   {
     step: "03",
     title: "Earn & Impact",
-    description:
-      "Participate, submit proof of work, and earn B3TR token rewards.",
+    description: "Submit proof, record streaks, and earn B3TR token rewards.",
     icon: Trophy,
   },
 ];

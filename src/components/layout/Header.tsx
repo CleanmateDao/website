@@ -1,7 +1,7 @@
 import { Sun, Moon, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/components/ThemeProvider";
-import logo from "@/assets/logo.png";
+import CleanMateLogo from "@/components/icons/logo";
 
 export default function Header() {
   const { theme, setTheme } = useTheme();
@@ -14,11 +14,8 @@ export default function Header() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 sm:gap-3">
-            <img src={logo} alt="CleanMate" className="h-8 sm:h-10 w-auto" />
-            <span className="text-lg sm:text-xl font-bold tracking-tight">
-              CleanMate
-            </span>
+          <a href="/">
+            <CleanMateLogo />
           </a>
 
           <div className="hidden md:flex items-center gap-8">
