@@ -7,7 +7,7 @@ export default function Header() {
   const { theme, setTheme } = useTheme();
 
   const handleGetStarted = () => {
-    window.open(import.meta.env.VITE_APP_URL, "_blank");
+    window.open(import.meta.env.VITE_APP_LINK, "_blank");
   };
 
   return (

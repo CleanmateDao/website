@@ -139,7 +139,7 @@ const benefits = [
 
 export default function Landing() {
   const handleGetStarted = () => {
-    window.open(import.meta.env.VITE_APP_URL, "_blank");
+    window.open(import.meta.env.VITE_APP_LINK, "_blank");
   };
 
   return (
