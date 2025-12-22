@@ -403,7 +403,7 @@ export default function Landing() {
               initial={{ opacity: 0, x: 30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative hidden lg:block"
+              className="relative"
             >
               {/* Main Card Stack */}
               <div className="relative">
@@ -419,7 +419,7 @@ export default function Landing() {
                   <img
                     src={heroImage}
                     alt="Environmental cleanup"
-                    className="w-full h-[500px] object-cover"
+                    className="w-full h-[340px] md:h-[500px] object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
 
@@ -428,26 +428,26 @@ export default function Landing() {
                     <div className="bg-card/90 backdrop-blur-xl rounded-2xl p-4 border border-border">
                       <div className="grid grid-cols-3 gap-4 text-center">
                         <div>
-                          <p className="text-2xl font-bold text-foreground">
+                          <p className="text-xl md:text-2xl font-bold text-foreground">
                             150+
                           </p>
-                          <p className="text-xs text-muted-foreground">
+                          <p className="text-xs md:text-sm text-muted-foreground">
                             Cleanups
                           </p>
                         </div>
                         <div className="border-x border-border">
-                          <p className="text-2xl font-bold text-foreground">
+                          <p className="text-xl md:text-2xl font-bold text-foreground">
                             2.7K+
                           </p>
-                          <p className="text-xs text-muted-foreground">
+                          <p className="text-xs md:text-sm text-muted-foreground">
                             Champions
                           </p>
                         </div>
                         <div>
-                          <p className="text-2xl font-bold text-foreground">
+                          <p className="text-xl md:text-2xl font-bold text-foreground">
                             12+
                           </p>
-                          <p className="text-xs text-muted-foreground">
+                          <p className="text-xs md:text-sm text-muted-foreground">
                             Countries
                           </p>
                         </div>
@@ -458,13 +458,13 @@ export default function Landing() {
 
                 {/* Floating Badge */}
                 <motion.div
-                  className="absolute -top-6 -right-6 bg-card border border-border rounded-2xl p-4 shadow-xl"
+                  className="absolute -top-3 -right-3 md:-top-6 md:-right-6 bg-card border border-border rounded-lg md:rounded-2xl p-2 md:p-4 shadow-xl"
                   animate={{ y: [0, -10, 0] }}
                   transition={{ duration: 4, repeat: Infinity }}
                 >
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 rounded-xl bg-muted flex items-center justify-center">
-                      <Trophy className="w-6 h-6 text-primary" />
+                    <div className="w-8 h-8 md:w-12 md:h-12 rounded-lg md:rounded-xl bg-muted flex items-center justify-center">
+                      <Trophy className="w-4 h-4 md:w-6 md:h-6 text-primary" />
                     </div>
                     <div>
                       <p className="text-sm font-semibold">+50 B3TR</p>
@@ -477,7 +477,7 @@ export default function Landing() {
 
                 {/* Floating User Avatars */}
                 <motion.div
-                  className="absolute -bottom-4 -left-8 bg-card border border-border rounded-2xl p-3 shadow-xl"
+                  className="absolute -bottom-2 -left-4 md:-bottom-4 md:-left-8 bg-card border border-border rounded-lg md:rounded-2xl p-2 md:p-3 shadow-xl"
                   animate={{ y: [0, 10, 0] }}
                   transition={{ duration: 5, repeat: Infinity }}
                 >
