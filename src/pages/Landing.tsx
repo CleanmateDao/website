@@ -484,8 +484,11 @@ export default function Landing() {
                   <div className="flex items-center gap-2">
                     <div className="flex -space-x-2">
                       {[...Array(4)].map((_, i) => (
-                        <div
-                          key={i}
+                        <img
+                          src={`https://testingbot.com/free-online-tools/random-avatar/${
+                            i + 600
+                          }`}
+                          alt={`Avatar ${i + 600}`}
                           className="w-8 h-8 rounded-full bg-gradient-to-br from-muted to-muted-foreground/30 border-2 border-card"
                         />
                       ))}
