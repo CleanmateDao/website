@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
 import {
   Leaf,
-  Users,
   Trophy,
   MapPin,
   ArrowRight,
@@ -12,7 +10,6 @@ import {
   Star,
   ChevronRight,
   Play,
-  Shield,
   Zap,
   CheckCircle,
   ArrowUpRight,
@@ -25,28 +22,34 @@ import Footer from "@/components/layout/Footer";
 import africanPattern from "@/assets/african-pattern-decorative.jpg";
 import africanMask from "@/assets/african-mask.jpg";
 import africanMasksPattern from "@/assets/african-masks-pattern.jpg";
+import heroImage from "@/assets/hero-image.png";
+import sustainableCity from "@/assets/sustainable-city.jpg";
+import location from "@/assets/location.png";
+import camera from "@/assets/camera.png";
+import b3tr from "@/assets/b3tr.avif";
+import verified from "@/assets/verified.png";
 
 const features = [
   {
-    icon: MapPin,
+    icon: location,
     title: "Discover Nearby",
     description:
       "Find cleanup events in your area with our interactive map and smart location discovery.",
   },
   {
-    icon: Users,
+    icon: camera,
     title: "Daily Streaks",
     description:
       "Record 5-second videos of sustainable actions and earn B3TR rewards daily.",
   },
   {
-    icon: Trophy,
+    icon: b3tr,
     title: "Earn Rewards",
     description:
       "Get B3TR tokens for every cleanup and streak. Real environmental impact, real crypto rewards.",
   },
   {
-    icon: Shield,
+    icon: verified,
     title: "Verified Impact",
     description:
       "Submit proof of work and get your contributions verified and recorded on-chain.",
@@ -284,7 +287,7 @@ export default function Landing() {
                 {/* Main Image */}
                 <div className="relative rounded-3xl overflow-hidden border border-border shadow-2xl">
                   <img
-                    src={africanMask}
+                    src={heroImage}
                     alt="Environmental cleanup"
                     className="w-full h-[500px] object-cover"
                   />
@@ -443,9 +446,11 @@ export default function Landing() {
                 >
                   <Card className="h-full border-border/50 hover:border-foreground/20 transition-all hover:shadow-xl group bg-card/50 backdrop-blur-sm">
                     <CardContent className="p-6">
-                      <div className="w-14 h-14 rounded-2xl bg-muted flex items-center justify-center mb-4 group-hover:bg-foreground group-hover:scale-110 transition-all">
-                        <Icon className="w-7 h-7 text-foreground group-hover:text-background transition-colors" />
-                      </div>
+                      <img
+                        src={feature.icon}
+                        alt={feature.title}
+                        className="h-14 mb-4 "
+                      />
                       <h3 className="text-xl font-semibold mb-2 text-foreground/90">
                         {feature.title}
                       </h3>
@@ -466,7 +471,7 @@ export default function Landing() {
         {/* Background */}
         <div className="absolute inset-0 bg-muted/50" />
         <div
-          className="absolute inset-0 opacity-[0.02] dark:opacity-[0.04]"
+          className="absolute inset-0 opacity-[0.02]"
           style={{
             backgroundImage: `url(${africanMasksPattern})`,
             backgroundSize: "300px",
@@ -546,12 +551,12 @@ export default function Landing() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `url(${africanPattern})`,
+            backgroundImage: `url(${sustainableCity})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 opacity-95" />
+        <div className="absolute inset-0 bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 opacity-85" />
 
         {/* Accent Glow */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/20 blur-[200px]" />
@@ -576,7 +581,7 @@ export default function Landing() {
 
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { label: "Beaches Cleaned", value: "30+", icon: Leaf },
+                { label: "Trash Collected", value: "30k+ kg", icon: Leaf },
                 { label: "Trees Planted", value: "1K+", icon: Target },
                 { label: "Communities Reached", value: "67+", icon: Globe },
               ].map((item, index) => {
