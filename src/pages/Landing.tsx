@@ -774,76 +774,86 @@ export default function Landing() {
             <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10" />
 
             {/* First Row - Left to Right */}
-            <div className="flex gap-6 mb-6 animate-marquee">
-              {[...testimonials].map((testimonial, index) => (
-                <Card
-                  key={`row1-${index}`}
-                  className="flex-shrink-0 w-[400px] border-border/50 hover:border-foreground/20 transition-all"
-                >
-                  <CardContent className="p-6">
-                    <div className="flex items-center gap-1 mb-4">
-                      {[...Array(testimonial.rating)].map((_, i) => (
-                        <Star
-                          key={i}
-                          className="w-4 h-4 fill-foreground text-foreground"
-                        />
-                      ))}
-                    </div>
-                    <p className="text-foreground mb-6 leading-relaxed">
-                      "{testimonial.quote}"
-                    </p>
-                    <div className="flex items-center gap-4">
-                      <img
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                        className="w-12 h-12 rounded-full"
-                      />
-                      <div>
-                        <p className="font-semibold">{testimonial.name}</p>
-                        <p className="text-sm text-muted-foreground">
-                          {testimonial.role}
-                        </p>
-                        <p className="text-xs text-muted-foreground">
-                          {testimonial.location}
-                        </p>
+            <div className="flex gap-3 md:gap-6 mb-6 animate-marquee">
+              {[...testimonials, ...testimonials, ...testimonials].map(
+                (testimonial, index) => (
+                  <Card
+                    key={`row1-${index}`}
+                    className="flex-shrink-0 w-[280px] md:w-[400px] border-border/50 hover:border-foreground/20 transition-all"
+                  >
+                    <CardContent className="p-4 md:p-6">
+                      <div className="flex items-center gap-1 mb-3 md:mb-4">
+                        {[...Array(testimonial.rating)].map((_, i) => (
+                          <Star
+                            key={i}
+                            className="w-3 h-3 md:w-4 md:h-4 fill-foreground text-foreground"
+                          />
+                        ))}
                       </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
+                      <p className="text-sm md:text-base text-foreground mb-4 md:mb-6 leading-relaxed">
+                        "{testimonial.quote}"
+                      </p>
+                      <div className="flex items-center gap-3 md:gap-4">
+                        <img
+                          src={testimonial.image}
+                          alt={testimonial.name}
+                          className="w-10 h-10 md:w-12 md:h-12 rounded-full"
+                        />
+                        <div>
+                          <p className="text-sm md:text-base font-semibold">
+                            {testimonial.name}
+                          </p>
+                          <p className="text-xs md:text-sm text-muted-foreground">
+                            {testimonial.role}
+                          </p>
+                          <p className="text-[10px] md:text-xs text-muted-foreground">
+                            {testimonial.location}
+                          </p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                )
+              )}
             </div>
 
             {/* Second Row - Right to Left */}
-            <div className="flex gap-6 animate-marquee-reverse">
-              {[...moreTestimonials].map((testimonial, index) => (
+            <div className="flex gap-3 md:gap-6 animate-marquee-reverse">
+              {[
+                ...moreTestimonials,
+                ...moreTestimonials,
+                ...moreTestimonials,
+              ].map((testimonial, index) => (
                 <Card
                   key={`row2-${index}`}
-                  className="flex-shrink-0 w-[400px] border-border/50 hover:border-foreground/20 transition-all"
+                  className="flex-shrink-0 w-[280px] md:w-[400px] border-border/50 hover:border-foreground/20 transition-all"
                 >
-                  <CardContent className="p-6">
-                    <div className="flex items-center gap-1 mb-4">
+                  <CardContent className="p-4 md:p-6">
+                    <div className="flex items-center gap-1 mb-3 md:mb-4">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star
                           key={i}
-                          className="w-4 h-4 fill-foreground text-foreground"
+                          className="w-3 h-3 md:w-4 md:h-4 fill-foreground text-foreground"
                         />
                       ))}
                     </div>
-                    <p className="text-foreground mb-6 leading-relaxed">
+                    <p className="text-sm md:text-base text-foreground mb-4 md:mb-6 leading-relaxed">
                       "{testimonial.quote}"
                     </p>
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-3 md:gap-4">
                       <img
                         src={testimonial.image}
                         alt={testimonial.name}
-                        className="w-12 h-12 rounded-full"
+                        className="w-10 h-10 md:w-12 md:h-12 rounded-full"
                       />
                       <div>
-                        <p className="font-semibold">{testimonial.name}</p>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-sm md:text-base font-semibold">
+                          {testimonial.name}
+                        </p>
+                        <p className="text-xs md:text-sm text-muted-foreground">
                           {testimonial.role}
                         </p>
-                        <p className="text-xs text-muted-foreground">
+                        <p className="text-[10px] md:text-xs text-muted-foreground">
                           {testimonial.location}
                         </p>
                       </div>
