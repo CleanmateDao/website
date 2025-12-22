@@ -81,54 +81,184 @@ const howItWorks = [
 
 const testimonials = [
   {
-    name: "Amara Okonkwo",
+    image: "https://testingbot.com/free-online-tools/random-avatar/601",
+    name: "Amaka Nwoye",
     role: "Community Organizer",
-    location: "Lagos, Nigeria",
+    location: "Enugu, Nigeria",
     quote:
-      "CleanMate transformed how we mobilize our community. 50+ beach cleanups and counting!",
+      "CleanMate made it easier to mobilize volunteers and track real impact in our neighborhoods.",
     rating: 5,
   },
   {
-    name: "David Kimani",
-    role: "Environmental Activist",
-    location: "Nairobi, Kenya",
+    image: "https://testingbot.com/free-online-tools/random-avatar/602",
+    name: "Lucas Pereira",
+    role: "Sustainability Advocate",
+    location: "São Paulo, Brazil",
     quote:
-      "Our volunteer retention increased by 300% since using the platform. The gamification works!",
+      "Seeing cleanup efforts verified on the app keeps everyone accountable and motivated.",
     rating: 5,
   },
   {
-    name: "Fatima Diallo",
-    role: "NGO Director",
-    location: "Dakar, Senegal",
+    image: "https://testingbot.com/free-online-tools/random-avatar/603",
+    name: "Salma Ben Youssef",
+    role: "Volunteer Coordinator",
+    location: "Sousse, Tunisia",
     quote:
-      "Earning B3TR tokens opened new funding opportunities. Building a sustainable future together.",
+      "Our volunteers stay active because their efforts are recognized and rewarded.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/604",
+    name: "Daniel Wong",
+    role: "Urban Planner",
+    location: "Singapore",
+    quote:
+      "CleanMate connects community action with measurable environmental outcomes.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/605",
+    name: "Kwesi Boateng",
+    role: "Youth Leader",
+    location: "Kumasi, Ghana",
+    quote:
+      "Young people are more eager to join cleanups now that progress is visible.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/606",
+    name: "Elena Rossi",
+    role: "Environmental Consultant",
+    location: "Florence, Italy",
+    quote:
+      "The platform makes grassroots environmental action easy to organize and verify.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/607",
+    name: "Hassan Bello",
+    role: "Waste Management Officer",
+    location: "Minna, Nigeria",
+    quote:
+      "CleanMate improved coordination between local teams and volunteers.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/608",
+    name: "Maya Thompson",
+    role: "Climate Action Volunteer",
+    location: "Vancouver, Canada",
+    quote:
+      "I love that real-world cleanup work is finally being tracked transparently.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/609",
+    name: "Amina Farah",
+    role: "Community Advocate",
+    location: "Garissa, Kenya",
+    quote:
+      "The app helped us build trust and consistency within our volunteer groups.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/610",
+    name: "Jonas Müller",
+    role: "Sustainability Researcher",
+    location: "Hamburg, Germany",
+    quote:
+      "CleanMate turns environmental goodwill into structured, provable action.",
     rating: 5,
   },
 ];
 
 const moreTestimonials = [
   {
-    name: "Kwame Asante",
-    role: "Youth Leader",
-    location: "Accra, Ghana",
+    image: "https://testingbot.com/free-online-tools/random-avatar/611",
+    name: "Fatou Ndiaye",
+    role: "NGO Program Manager",
+    location: "Saint-Louis, Senegal",
     quote:
-      "The platform made it easy to engage young people. We've organized 30 cleanups in just 3 months!",
+      "Tracking cleanups digitally has strengthened our reporting and partnerships.",
     rating: 5,
   },
   {
-    name: "Zara Mohammed",
-    role: "Volunteer Coordinator",
-    location: "Cairo, Egypt",
-    quote:
-      "Finally a platform that rewards real environmental action. Our community is more motivated than ever.",
+    image: "https://testingbot.com/free-online-tools/random-avatar/612",
+    name: "Oliver Grant",
+    role: "Environmental Volunteer",
+    location: "Bristol, United Kingdom",
+    quote: "The app keeps me motivated by showing how small actions add up.",
     rating: 5,
   },
   {
-    name: "James Obi",
-    role: "Environmental Engineer",
-    location: "Abuja, Nigeria",
+    image: "https://testingbot.com/free-online-tools/random-avatar/613",
+    name: "Youssef El Amrani",
+    role: "City Cleanup Lead",
+    location: "Oujda, Morocco",
     quote:
-      "The proof of work verification gives credibility to our cleanup efforts. Donors trust our impact now.",
+      "Volunteer coordination is smoother, and turnout has increased significantly.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/614",
+    name: "Priya Nair",
+    role: "Sustainability Educator",
+    location: "Kochi, India",
+    quote:
+      "CleanMate bridges the gap between awareness and real environmental action.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/615",
+    name: "Thabo Mokoena",
+    role: "Community Mobilizer",
+    location: "Polokwane, South Africa",
+    quote:
+      "People are more consistent when their efforts are acknowledged on the platform.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/616",
+    name: "Sofia Alvarez",
+    role: "Green Projects Coordinator",
+    location: "Valencia, Spain",
+    quote:
+      "CleanMate simplifies organizing cleanups across multiple neighborhoods.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/617",
+    name: "Moses Ochieng",
+    role: "Environmental Technician",
+    location: "Kisumu, Kenya",
+    quote:
+      "The proof-of-work system gives credibility to every cleanup effort.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/618",
+    name: "Ethan Brooks",
+    role: "Impact Analyst",
+    location: "Denver, USA",
+    quote: "Verified environmental data makes long-term planning much easier.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/619",
+    name: "Zainab Sule",
+    role: "Volunteer Lead",
+    location: "Ilorin, Nigeria",
+    quote:
+      "CleanMate helped us grow from small groups into a city-wide movement.",
+    rating: 5,
+  },
+  {
+    image: "https://testingbot.com/free-online-tools/random-avatar/620",
+    name: "Noah Fischer",
+    role: "Climate Initiative Partner",
+    location: "Zurich, Switzerland",
+    quote:
+      "The platform turns community cleanup into measurable environmental impact.",
     rating: 5,
   },
 ];
@@ -642,7 +772,7 @@ export default function Landing() {
 
             {/* First Row - Left to Right */}
             <div className="flex gap-6 mb-6 animate-marquee">
-              {[...testimonials, ...testimonials].map((testimonial, index) => (
+              {[...testimonials].map((testimonial, index) => (
                 <Card
                   key={`row1-${index}`}
                   className="flex-shrink-0 w-[400px] border-border/50 hover:border-foreground/20 transition-all"
@@ -660,12 +790,11 @@ export default function Landing() {
                       "{testimonial.quote}"
                     </p>
                     <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 rounded-full bg-foreground flex items-center justify-center text-background font-semibold">
-                        {testimonial.name
-                          .split(" ")
-                          .map((n) => n[0])
-                          .join("")}
-                      </div>
+                      <img
+                        src={testimonial.image}
+                        alt={testimonial.name}
+                        className="w-12 h-12 rounded-full"
+                      />
                       <div>
                         <p className="font-semibold">{testimonial.name}</p>
                         <p className="text-sm text-muted-foreground">
@@ -683,45 +812,42 @@ export default function Landing() {
 
             {/* Second Row - Right to Left */}
             <div className="flex gap-6 animate-marquee-reverse">
-              {[...moreTestimonials, ...moreTestimonials].map(
-                (testimonial, index) => (
-                  <Card
-                    key={`row2-${index}`}
-                    className="flex-shrink-0 w-[400px] border-border/50 hover:border-foreground/20 transition-all"
-                  >
-                    <CardContent className="p-6">
-                      <div className="flex items-center gap-1 mb-4">
-                        {[...Array(testimonial.rating)].map((_, i) => (
-                          <Star
-                            key={i}
-                            className="w-4 h-4 fill-foreground text-foreground"
-                          />
-                        ))}
+              {[...moreTestimonials].map((testimonial, index) => (
+                <Card
+                  key={`row2-${index}`}
+                  className="flex-shrink-0 w-[400px] border-border/50 hover:border-foreground/20 transition-all"
+                >
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-1 mb-4">
+                      {[...Array(testimonial.rating)].map((_, i) => (
+                        <Star
+                          key={i}
+                          className="w-4 h-4 fill-foreground text-foreground"
+                        />
+                      ))}
+                    </div>
+                    <p className="text-foreground mb-6 leading-relaxed">
+                      "{testimonial.quote}"
+                    </p>
+                    <div className="flex items-center gap-4">
+                      <img
+                        src={testimonial.image}
+                        alt={testimonial.name}
+                        className="w-12 h-12 rounded-full"
+                      />
+                      <div>
+                        <p className="font-semibold">{testimonial.name}</p>
+                        <p className="text-sm text-muted-foreground">
+                          {testimonial.role}
+                        </p>
+                        <p className="text-xs text-muted-foreground">
+                          {testimonial.location}
+                        </p>
                       </div>
-                      <p className="text-foreground mb-6 leading-relaxed">
-                        "{testimonial.quote}"
-                      </p>
-                      <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 rounded-full bg-foreground flex items-center justify-center text-background font-semibold">
-                          {testimonial.name
-                            .split(" ")
-                            .map((n) => n[0])
-                            .join("")}
-                        </div>
-                        <div>
-                          <p className="font-semibold">{testimonial.name}</p>
-                          <p className="text-sm text-muted-foreground">
-                            {testimonial.role}
-                          </p>
-                          <p className="text-xs text-muted-foreground">
-                            {testimonial.location}
-                          </p>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-                )
-              )}
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
         </div>
