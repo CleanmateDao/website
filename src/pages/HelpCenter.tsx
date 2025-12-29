@@ -118,7 +118,7 @@ const articles: { title: string; category: CategoryKey; content: string }[] = [
     title: "Creating your profile",
     category: "Getting Started",
     content:
-      "Complete your profile during onboarding:\n\n1. Add your full name and email\n2. Set your location for nearby cleanups\n3. Optionally add a profile photo\n4. Complete KYC for organizing cleanups\n\nA complete profile helps you connect with the community and unlock all features.",
+      "Complete your profile during onboarding:\n\n1. Add your full name or organization name and email\n2. Set your location for nearby cleanups\n3. Optionally add a profile photo\n4. Complete KYC for organizing cleanups\n\nA complete profile helps you connect with the community and unlock all features.",
   },
   {
     title: "Claiming your rewards",
