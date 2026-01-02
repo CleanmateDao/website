@@ -77,7 +77,7 @@ export default function TermsOfService() {
             <div>
               <h1 className="text-3xl font-bold">Terms of Service</h1>
               <p className="text-muted-foreground">
-                Last updated: December 2024
+                Last updated: December 2026
               </p>
             </div>
           </div>

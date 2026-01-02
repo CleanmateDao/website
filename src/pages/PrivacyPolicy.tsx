@@ -153,7 +153,7 @@ We will respond to your inquiry within 30 days.`,
             <div>
               <h1 className="text-3xl font-bold">Privacy Policy</h1>
               <p className="text-muted-foreground">
-                Last updated: December 2024
+                Last updated: December 2026
               </p>
             </div>
           </div>
