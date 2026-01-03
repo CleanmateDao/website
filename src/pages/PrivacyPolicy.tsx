@@ -33,12 +33,12 @@ export default function PrivacyPolicy() {
       title: "1. Information We Collect",
       content: `We collect information you provide directly to us, including:
       
-• **Account Information**: Name, email address, profile photo, location (city/country), and environmental interests when you create an account.
-• **Wallet Information**: Cryptocurrency wallet addresses for receiving B3TR token rewards.
-• **Cleanup Data**: Information about cleanups you organize or participate in, including locations, dates, and participation records.
-• **Proof of Work**: Photos and videos you submit as evidence of cleanup participation.
-• **Communications**: Messages and feedback you send to us or other users through the Platform.
-• **KYC Information**: Identity documents and verification data when required for compliance purposes.`,
+• <b>Account Information</b>: Name, email address, profile photo, location (city/country), and environmental interests when you create an account.
+• <b>Wallet Information</b>: Cryptocurrency wallet addresses for receiving B3TR token rewards.
+• <b>Cleanup Data</b>: Information about cleanups you organize or participate in, including locations, dates, and participation records.
+• <b>Proof of Work</b>: Photos and videos you submit as evidence of cleanup participation.
+• <b>Communications</b>: Messages and feedback you send to us or other users through the Platform.
+• <b>KYC Information</b>: Identity documents and verification data when required for compliance purposes.`,
     },
     {
       title: "2. How We Use Your Information",
@@ -57,12 +57,12 @@ export default function PrivacyPolicy() {
       title: "3. Information Sharing",
       content: `We may share your information in the following circumstances:
       
-• **Public Profile**: Your name, profile photo, and cleanup participation history may be visible to other users.
-• **Event Organizers**: When you join a cleanup, the organizer can see your basic profile information.
-• **Blockchain**: Wallet addresses and reward transactions are recorded on the public blockchain.
-• **Service Providers**: We share data with third-party services that help us operate the Platform (hosting, analytics, etc.).
-• **Legal Requirements**: We may disclose information when required by law or to protect rights and safety.
-• **Business Transfers**: In the event of a merger or acquisition, your information may be transferred.`,
+• <b>Public Profile</b>: Your name, profile photo, and cleanup participation history may be visible to other users.
+• <b>Event Organizers</b>: When you join a cleanup, the organizer can see your basic profile information.
+• <b>Blockchain</b>: Wallet addresses and reward transactions are recorded on the public blockchain.
+• <b>Service Providers</b>: We share data with third-party services that help us operate the Platform (hosting, analytics, etc.).
+• <b>Legal Requirements</b>: We may disclose information when required by law or to protect rights and safety.
+• <b>Business Transfers</b>: In the event of a merger or acquisition, your information may be transferred.`,
     },
     {
       title: "4. Data Security",
@@ -80,15 +80,15 @@ However, no method of transmission over the Internet is 100% secure, and we cann
       title: "5. Your Privacy Rights",
       content: `Depending on your location, you may have the following rights:
       
-• **Access**: Request a copy of your personal data
-• **Correction**: Update or correct inaccurate information
-• **Deletion**: Request deletion of your personal data
-• **Portability**: Receive your data in a portable format
-• **Objection**: Object to certain processing of your data
-• **Restriction**: Request restriction of processing
-• **Withdraw Consent**: Withdraw consent where processing is based on consent
+• <b>Access</b>: Request a copy of your personal data
+• <b>Correction</b>: Update or correct inaccurate information
+• <b>Deletion</b>: Request deletion of your personal data
+• <b>Portability</b>: Receive your data in a portable format
+• <b>Objection</b>: Object to certain processing of your data
+• <b>Restriction</b>: Request restriction of processing
+• <b>Withdraw Consent</b>: Withdraw consent where processing is based on consent
 
-To exercise these rights, please contact us through the Help Center or at privacy@cleanupmatedao.com.`,
+To exercise these rights, please contact us through the Help Center or at support@cleanupmatedao.com.`,
     },
     {
       title: "6. Cookies and Tracking",
@@ -128,7 +128,7 @@ When you delete your account, we will delete or anonymize your personal informat
       title: "11. Contact Us",
       content: `If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:
       
-• Email: privacy@cleanupmatedao.com
+• Email: support@cleanupmatedao.com
 • Help Center: Available through the Platform
 
 We will respond to your inquiry within 30 days.`,
@@ -213,9 +213,10 @@ We will respond to your inquiry within 30 days.`,
                 <h2 className="text-xl font-semibold mb-3 text-foreground">
                   {section.title}
                 </h2>
-                <div className="text-muted-foreground leading-relaxed whitespace-pre-line">
-                  {section.content}
-                </div>
+                <div 
+                  className="text-muted-foreground leading-relaxed whitespace-pre-line"
+                  dangerouslySetInnerHTML={{ __html: section.content }}
+                />
               </motion.section>
             ))}
           </div>

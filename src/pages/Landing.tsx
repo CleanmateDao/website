@@ -271,8 +271,15 @@ const benefits = [
 ];
 
 export default function Landing() {
+  const isLaunched = Boolean(import.meta.env.VITE_LAUNCHED_APP);
+
   const handleGetStarted = () => {
-    window.open(import.meta.env.VITE_APP_LINK, "_blank");
+    window.open(
+      isLaunched
+        ? import.meta.env.VITE_APP_LINK
+        : import.meta.env.VITE_WAITLIST_LINK,
+      "_blank"
+    );
   };
 
   return (
@@ -371,13 +378,16 @@ export default function Landing() {
                   onClick={handleGetStarted}
                   className="gap-2 text-lg px-8 h-14 shadow-lg shadow-primary/25"
                 >
-                  Start Organizing
+                  {isLaunched ? "Start Organizing" : "Join Waitlist"}
                   <ArrowRight className="w-5 h-5" />
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   className="gap-2 text-lg px-8 h-14"
+                  onClick={() => {
+                    window.open(import.meta.env.VITE_DEMO_VIDEO_LINK, "_blank");
+                  }}
                 >
                   <Play className="w-5 h-5" />
                   Watch Demo
@@ -672,7 +682,7 @@ export default function Landing() {
             className="text-center mt-12"
           >
             <Button size="lg" onClick={handleGetStarted} className="gap-2">
-              Get Started Now
+              {isLaunched ? "Get Started Now" : "Join the Waitlist"}
               <ChevronRight className="w-5 h-5" />
             </Button>
           </motion.div>
@@ -913,7 +923,7 @@ export default function Landing() {
                     onClick={handleGetStarted}
                     className="gap-2 text-lg px-8 h-14"
                   >
-                    Start Streaking
+                    {isLaunched ? "Start Streaking" : "Join the Waitlist"}
                     <ArrowUpRight className="w-5 h-5" />
                   </Button>
                 </div>

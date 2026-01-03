@@ -6,8 +6,15 @@ import CleanMateLogo from "@/components/icons/logo";
 export default function Header() {
   const { theme, setTheme } = useTheme();
 
+  const isLaunched = Boolean(import.meta.env.VITE_LAUNCHED_APP);
+
   const handleGetStarted = () => {
-    window.open(import.meta.env.VITE_APP_LINK, "_blank");
+    window.open(
+      isLaunched
+        ? import.meta.env.VITE_APP_LINK
+        : import.meta.env.VITE_WAITLIST_LINK,
+      "_blank"
+    );
   };
 
   return (
@@ -63,7 +70,7 @@ export default function Header() {
               className="gap-2 text-sm sm:text-base px-3 sm:px-4"
             >
               <Rocket className="w-4 h-4 hidden sm:block" />
-              Launch App
+              {isLaunched ? "Launch App" : "Join Waitlist"}
             </Button>
           </div>
         </div>
