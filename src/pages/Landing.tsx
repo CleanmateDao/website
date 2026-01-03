@@ -28,6 +28,29 @@ import location from "@/assets/location.png";
 import camera from "@/assets/camera.png";
 import b3tr from "@/assets/b3tr.avif";
 import verified from "@/assets/verified.png";
+import helen from "@/assets/joined/helen.jpeg";
+import iqmah from "@/assets/joined/iqmah.jpeg";
+import jayjay from "@/assets/joined/jayjay.jpeg";
+import wizdom from "@/assets/joined/wizdom.jpeg";
+
+const joinedUsers = [
+  {
+    image: helen,
+    name: "Helen",
+  },
+  {
+    image: iqmah,
+    name: "Iqmah",
+  },
+  {
+    image: jayjay,
+    name: "Jayjay",
+  },
+  {
+    image: wizdom,
+    name: "Wizdom",
+  },
+];
 
 const features = [
   {
@@ -493,12 +516,11 @@ export default function Landing() {
                 >
                   <div className="flex items-center gap-2">
                     <div className="flex -space-x-2">
-                      {[...Array(4)].map((_, i) => (
+                      {joinedUsers.map((user, i) => (
                         <img
-                          src={`https://testingbot.com/free-online-tools/random-avatar/${
-                            i + 600
-                          }`}
-                          alt={`Avatar ${i + 600}`}
+                          key={i}
+                          src={user.image}
+                          alt={user.name}
                           className="w-8 h-8 rounded-full bg-gradient-to-br from-muted to-muted-foreground/30 border-2 border-card"
                         />
                       ))}
