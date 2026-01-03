@@ -6,7 +6,7 @@ import CleanMateLogo from "@/components/icons/logo";
 export default function Header() {
   const { theme, setTheme } = useTheme();
 
-  const isLaunched = Boolean(import.meta.env.VITE_LAUNCHED_APP);
+  const isLaunched = import.meta.env.VITE_LAUNCHED_APP === "true";
 
   const handleGetStarted = () => {
     window.open(

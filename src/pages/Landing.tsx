@@ -294,7 +294,7 @@ const benefits = [
 ];
 
 export default function Landing() {
-  const isLaunched = Boolean(import.meta.env.VITE_LAUNCHED_APP);
+  const isLaunched = import.meta.env.VITE_LAUNCHED_APP === "true";
 
   const handleGetStarted = () => {
     window.open(
