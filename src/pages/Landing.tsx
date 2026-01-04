@@ -19,6 +19,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { addReferrerToUrl } from "@/lib/utils";
 import africanPattern from "@/assets/african-pattern-decorative.jpg";
 import africanMask from "@/assets/african-mask.jpg";
 import africanMasksPattern from "@/assets/african-masks-pattern.jpg";
@@ -297,12 +298,10 @@ export default function Landing() {
   const isLaunched = import.meta.env.VITE_LAUNCHED_APP === "true";
 
   const handleGetStarted = () => {
-    window.open(
-      isLaunched
-        ? import.meta.env.VITE_APP_LINK
-        : import.meta.env.VITE_WAITLIST_LINK,
-      "_blank"
-    );
+    const url = isLaunched
+      ? import.meta.env.VITE_APP_LINK
+      : import.meta.env.VITE_WAITLIST_LINK;
+    window.open(addReferrerToUrl(url || ""), "_blank");
   };
 
   return (
@@ -409,7 +408,12 @@ export default function Landing() {
                   variant="outline"
                   className="gap-2 text-lg px-8 h-14"
                   onClick={() => {
-                    window.open(import.meta.env.VITE_DEMO_VIDEO_LINK, "_blank");
+                    window.open(
+                      addReferrerToUrl(
+                        import.meta.env.VITE_DEMO_VIDEO_LINK || ""
+                      ),
+                      "_blank"
+                    );
                   }}
                 >
                   <Play className="w-5 h-5" />
@@ -558,7 +562,7 @@ export default function Landing() {
             Trusted by leading environmental organizations
           </p>
           <div className="flex flex-wrap items-center justify-center gap-12 opacity-50">
-            {["VeChain", "VeBetterDAO", "Ecoferad2", "RevoStudioz"].map(
+            {["VeChain", "VeBetterDAO", "Ecoferad", "RevoStudioz"].map(
               (brand) => (
                 <div
                   key={brand}

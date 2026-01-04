@@ -1,5 +1,6 @@
 import { Heart, Award } from "lucide-react";
 import CleanMateLogoInvariant from "../icons/logo-invariant";
+import { addReferrerToUrl } from "@/lib/utils";
 
 // X (Twitter) icon component
 const XIcon = ({ className }: { className?: string }) => (
@@ -115,7 +116,7 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">
               <a
-                href="https://x.com"
+                href={addReferrerToUrl("https://x.com")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-muted flex items-center justify-center hover:bg-foreground hover:text-background transition-colors"
@@ -123,7 +124,7 @@ export default function Footer() {
                 <XIcon className="w-4 h-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href={addReferrerToUrl("https://instagram.com")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-muted flex items-center justify-center hover:bg-foreground hover:text-background transition-colors"

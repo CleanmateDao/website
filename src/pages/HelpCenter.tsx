@@ -91,10 +91,10 @@ const articles: { title: string; category: CategoryKey; content: string }[] = [
       'To organize your first cleanup:\n\n1. Navigate to the Dashboard and click "Organize Cleanup"\n2. Fill in basic details: title, description, and category\n3. Set the location using the interactive map\n4. Choose a date and time\n5. Add optional cover images\n6. Submit your event for others to discover\n\nOnce published, participants can apply to join your cleanup. You\'ll be notified of new applications and can accept or reject them.',
   },
   {
-    title: "Recording your first streak video",
+    title: "Recording your first streak video or photo",
     category: "Streaks",
     content:
-      'Recording a streak is simple:\n\n1. Open the Streaks page on your mobile device\n2. Tap "New Streak" to start\n3. Review the rules screen (can be skipped after first time)\n4. Press and hold the record button\n5. Record for up to 5 seconds while performing your sustainable action\n6. Make sure your Streaker Code is visible in the frame\n7. Preview and submit your video\n\nYour streak will be reviewed by moderators within 24-48 hours.',
+      'Recording a streak is simple:\n\n1. Open the Streaks page on your mobile device\n2. Tap "New Streak" to start\n3. Click on the tips icon to see the tips for the streak\n4. Press and hold the record button or take a photo\n5. Record for up to 5 seconds while performing your sustainable action\n6. Preview and submit your video or photo\n\nYour streak will be reviewed by moderators within 24-48 hours.',
   },
   {
     title: "Understanding B3TR token rewards",
@@ -106,7 +106,7 @@ const articles: { title: string; category: CategoryKey; content: string }[] = [
     title: "Connecting your VeChain wallet",
     category: "Wallet",
     content:
-      'To connect your wallet:\n\n1. Go to Settings > Wallets\n2. Click "Connect Wallet"\n3. Choose your wallet provider (WalletConnect supported)\n4. Approve the connection in your wallet app\n\nAlternatively, manually enter your VeChain wallet address. Make sure you\'re using a VeChain-compatible wallet to receive B3TR tokens.',
+      'To connect your wallet:\n\n1. Go to Settings > Account\n2. Click "Login"\n3. Choose to login with socials or Wallet\n4. Approve the connection in your wallet app.',
   },
   {
     title: "What is a Streaker Code?",
@@ -118,7 +118,7 @@ const articles: { title: string; category: CategoryKey; content: string }[] = [
     title: "Creating your profile",
     category: "Getting Started",
     content:
-      "Complete your profile during onboarding:\n\n1. Add your full name or organization name and email\n2. Set your location for nearby cleanups\n3. Optionally add a profile photo\n4. Complete KYC for organizing cleanups\n\nA complete profile helps you connect with the community and unlock all features.",
+      "Complete your profile during onboarding:\n\n1. Add your full name or organization name and email\n2. Set your location for nearby cleanups\n3. Connect your wallet\n4. Complete KYC for organizing cleanups\n\nA complete profile helps you connect with the community and unlock all features.",
   },
   {
     title: "Claiming your rewards",

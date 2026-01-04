@@ -2,6 +2,7 @@ import { Sun, Moon, Rocket } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/components/ThemeProvider";
 import CleanMateLogo from "@/components/icons/logo";
+import { addReferrerToUrl } from "@/lib/utils";
 
 export default function Header() {
   const { theme, setTheme } = useTheme();
@@ -9,12 +10,10 @@ export default function Header() {
   const isLaunched = import.meta.env.VITE_LAUNCHED_APP === "true";
 
   const handleGetStarted = () => {
-    window.open(
-      isLaunched
-        ? import.meta.env.VITE_APP_LINK
-        : import.meta.env.VITE_WAITLIST_LINK,
-      "_blank"
-    );
+    const url = isLaunched
+      ? import.meta.env.VITE_APP_LINK
+      : import.meta.env.VITE_WAITLIST_LINK;
+    window.open(addReferrerToUrl(url || ""), "_blank");
   };
 
   return (
