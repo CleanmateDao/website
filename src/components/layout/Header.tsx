@@ -7,12 +7,8 @@ import { addReferrerToUrl } from "@/lib/utils";
 export default function Header() {
   const { theme, setTheme } = useTheme();
 
-  const isLaunched = import.meta.env.VITE_LAUNCHED_APP === "true";
-
   const handleGetStarted = () => {
-    const url = isLaunched
-      ? import.meta.env.VITE_APP_LINK
-      : import.meta.env.VITE_WAITLIST_LINK;
+    const url = import.meta.env.VITE_APP_LINK;
     window.open(addReferrerToUrl(url || ""), "_blank");
   };
 
@@ -69,7 +65,7 @@ export default function Header() {
               className="gap-2 text-sm sm:text-base px-3 sm:px-4"
             >
               <Rocket className="w-4 h-4 hidden sm:block" />
-              {isLaunched ? "Launch App" : "Join Waitlist"}
+              Launch App
             </Button>
           </div>
         </div>

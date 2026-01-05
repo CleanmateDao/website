@@ -106,45 +106,45 @@ const howItWorks = [
 const testimonials = [
   {
     image: "https://testingbot.com/free-online-tools/random-avatar/601",
-    name: "Amaka Nwoye",
-    role: "Community Organizer",
-    location: "Enugu, Nigeria",
+    name: "Chisom",
+    role: "Product Manager",
+    location: "Lagos, Nigeria",
     quote:
       "CleanMate made it easier to mobilize volunteers and track real impact in our neighborhoods.",
     rating: 5,
   },
   {
     image: "https://testingbot.com/free-online-tools/random-avatar/602",
-    name: "Lucas Pereira",
-    role: "Sustainability Advocate",
-    location: "São Paulo, Brazil",
+    name: "Micheal",
+    role: "Climate Actor",
+    location: "Ogun",
     quote:
       "Seeing cleanup efforts verified on the app keeps everyone accountable and motivated.",
     rating: 5,
   },
   {
     image: "https://testingbot.com/free-online-tools/random-avatar/603",
-    name: "Salma Ben Youssef",
-    role: "Volunteer Coordinator",
-    location: "Sousse, Tunisia",
+    name: "Ibra",
+    role: "Founder, CleanMate",
+    location: "Nigeria",
     quote:
       "Our volunteers stay active because their efforts are recognized and rewarded.",
     rating: 5,
   },
   {
     image: "https://testingbot.com/free-online-tools/random-avatar/604",
-    name: "Daniel Wong",
-    role: "Urban Planner",
-    location: "Singapore",
+    name: "Omoshalewa",
+    role: "Office Manager",
+    location: "Nigeria",
     quote:
       "CleanMate connects community action with measurable environmental outcomes.",
     rating: 5,
   },
   {
     image: "https://testingbot.com/free-online-tools/random-avatar/605",
-    name: "Kwesi Boateng",
-    role: "Youth Leader",
-    location: "Kumasi, Ghana",
+    name: "Abdulafeez O.",
+    role: "Architect",
+    location: "Canada",
     quote:
       "Young people are more eager to join cleanups now that progress is visible.",
     rating: 5,
