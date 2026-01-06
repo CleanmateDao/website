@@ -24,7 +24,7 @@ export function addReferrerToUrl(
     const urlObj = new URL(url);
     // Add referrer parameter if it doesn't already exist
     if (!urlObj.searchParams.has("ref")) {
-      urlObj.searchParams.set("ref", referrer);
+      urlObj.searchParams.set("utm_source", referrer);
     }
     return urlObj.toString();
   } catch {
