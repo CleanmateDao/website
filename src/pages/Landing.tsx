@@ -417,7 +417,7 @@ export default function Landing() {
                   }}
                 >
                   <Play className="w-5 h-5" />
-                  Watch Demo
+                  Watch Video
                 </Button>
               </div>
 
