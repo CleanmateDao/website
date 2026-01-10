@@ -85,7 +85,10 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a
+                  href="https://t.me/cleanmate_community"
+                  className="hover:text-foreground transition-colors"
+                >
                   Community
                 </a>
               </li>
@@ -105,6 +108,14 @@ export default function Footer() {
                   Terms of Service
                 </a>
               </li>
+              <li>
+                <a
+                  href={addReferrerToUrl(import.meta.env.VITE_BLOG_LINK)}
+                  className="hover:text-foreground transition-colors"
+                >
+                  Blog
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -116,7 +127,7 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">
               <a
-                href={addReferrerToUrl("https://x.com")}
+                href={addReferrerToUrl("https://x.com/cleanmatedao")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-muted flex items-center justify-center hover:bg-foreground hover:text-background transition-colors"
@@ -124,7 +135,7 @@ export default function Footer() {
                 <XIcon className="w-4 h-4" />
               </a>
               <a
-                href={addReferrerToUrl("https://instagram.com")}
+                href={addReferrerToUrl("https://instagram.com/cleanmatedao")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 rounded-full bg-muted flex items-center justify-center hover:bg-foreground hover:text-background transition-colors"

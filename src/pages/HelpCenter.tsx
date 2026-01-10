@@ -16,6 +16,7 @@ import {
   Flame,
   ArrowLeft,
   X,
+  FileText,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -318,6 +319,18 @@ export default function HelpCenter() {
             <p className="text-muted-foreground mb-8">
               Search our knowledge base or browse categories below
             </p>
+            <div className="flex items-center justify-center gap-4 mb-8">
+              <Button
+                variant="outline"
+                className="gap-2"
+                onClick={() =>
+                  window.open(import.meta.env.VITE_DOCS_LINK, "_blank")
+                }
+              >
+                <FileText className="w-4 h-4" />
+                View Documentation
+              </Button>
+            </div>
             <div className="relative max-w-xl mx-auto">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
               <Input
@@ -570,7 +583,17 @@ export default function HelpCenter() {
                     </p>
                   </div>
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-3 flex-wrap justify-center">
+                  <Button
+                    variant="outline"
+                    className="gap-2"
+                    onClick={() =>
+                      window.open(import.meta.env.VITE_DOCS_LINK, "_blank")
+                    }
+                  >
+                    <FileText className="w-4 h-4" />
+                    Documentation
+                  </Button>
                   <Button
                     variant="outline"
                     className="gap-2"

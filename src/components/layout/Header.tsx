@@ -45,6 +45,14 @@ export default function Header() {
             >
               Stories
             </a>
+            <a
+              href={import.meta.env.VITE_DOCS_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Docs
+            </a>
           </div>
 
           <div className="flex items-center gap-2 sm:gap-3">
