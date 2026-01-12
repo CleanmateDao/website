@@ -62,7 +62,7 @@ const categories: {
     icon: Flame,
     title: "Streaks",
     description: "Daily sustainable actions",
-    count: 6,
+    count: 1,
   },
   {
     icon: Trophy,
@@ -110,12 +110,6 @@ const articles: { title: string; category: CategoryKey; content: string }[] = [
       'To connect your wallet:\n\n1. Go to Settings > Account\n2. Click "Login"\n3. Choose to login with socials or Wallet\n4. Approve the connection in your wallet app.',
   },
   {
-    title: "What is a Streaker Code?",
-    category: "Streaks",
-    content:
-      "Your Streaker Code is a unique identifier for validation:\n\n• Found in the Streaks section of the app\n• Must be visible in every streak video\n• Proves you personally performed the action\n• Write it on paper and hold it while recording\n\nWithout a visible Streaker Code, your streak submission will be rejected.",
-  },
-  {
     title: "Creating your profile",
     category: "Getting Started",
     content:
@@ -139,19 +133,13 @@ const faqs: { question: string; answer: string; category: CategoryKey }[] = [
   {
     question: "What are Streaks and how do they work?",
     answer:
-      "Streaks are short 5-second videos of sustainable actions you can record daily on your mobile device. Actions include proper waste disposal, recycling, crafting from waste materials, or composting. Each approved streak earns you B3TR tokens. Your unique Streaker Code must be visible in the video for validation.",
-    category: "Streaks",
-  },
-  {
-    question: "What is a Streaker Code?",
-    answer:
-      "A Streaker Code is your unique identifier that must be shown in every streak video for validation. It proves that you personally performed the sustainable action. You can find your Streaker Code in the Streaks section of the app. Write it on a piece of paper and hold it up while recording your action.",
+      "Streaks are short 5-second videos of sustainable actions you can record daily on your mobile device. Actions include proper waste disposal, recycling, crafting from waste materials, or composting. Each approved streak earns you B3TR tokens.",
     category: "Streaks",
   },
   {
     question: "How do I record a streak video?",
     answer:
-      'Open the Streaks page on your mobile device and tap "New Streak". First, review the rules (you can skip this after the first time). Then, press and hold the record button for up to 5 seconds while performing your sustainable action. Make sure your Streaker Code is visible in the frame. Preview your video and submit it for review.',
+      'Open the Streaks page on your mobile device and tap "New Streak". First, review the rules (you can skip this after the first time). Then, press and hold the record button for up to 5 seconds while performing your sustainable action. Preview your video and submit it for review.',
     category: "Streaks",
   },
   {

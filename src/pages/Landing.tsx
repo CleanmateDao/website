@@ -85,7 +85,7 @@ const howItWorks = [
     step: "01",
     title: "Create Your Profile",
     description:
-      "Sign up in under 2 minutes and get your unique Streaker Code.",
+      "Sign up in under 2 minutes and start making an impact.",
     icon: Sparkles,
   },
   {
