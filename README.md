@@ -5,7 +5,6 @@
 - **Tailwind CSS** - Styling
 - **Framer Motion** - Animations
 - **Shadcn/UI** - Component library
-- **Recharts** - Data visualization
 - **React Router** - Navigation
 
 ---
