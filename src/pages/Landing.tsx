@@ -84,8 +84,7 @@ const howItWorks = [
   {
     step: "01",
     title: "Create Your Profile",
-    description:
-      "Sign up in under 2 minutes and start making an impact.",
+    description: "Sign up in under 2 minutes and start making an impact.",
     icon: Sparkles,
   },
   {
@@ -110,7 +109,7 @@ const testimonials = [
     role: "Product Manager",
     location: "Lagos, Nigeria",
     quote:
-      "CleanMate made it easier to mobilize volunteers and track real impact in our neighborhoods.",
+      "Cleanmate made it easier to mobilize volunteers and track real impact in our neighborhoods.",
     rating: 5,
   },
   {
@@ -125,7 +124,7 @@ const testimonials = [
   {
     image: "https://testingbot.com/free-online-tools/random-avatar/603",
     name: "Ibra",
-    role: "Founder, CleanMate",
+    role: "Founder, Cleanmate",
     location: "Nigeria",
     quote:
       "Our volunteers stay active because their efforts are recognized and rewarded.",
@@ -137,7 +136,7 @@ const testimonials = [
     role: "Office Manager",
     location: "Nigeria",
     quote:
-      "CleanMate connects community action with measurable environmental outcomes.",
+      "Cleanmate connects community action with measurable environmental outcomes.",
     rating: 5,
   },
   {
@@ -164,7 +163,7 @@ const testimonials = [
     role: "Waste Management Officer",
     location: "Minna, Nigeria",
     quote:
-      "CleanMate improved coordination between local teams and volunteers.",
+      "Cleanmate improved coordination between local teams and volunteers.",
     rating: 5,
   },
   {
@@ -191,7 +190,7 @@ const testimonials = [
     role: "Sustainability Researcher",
     location: "Hamburg, Germany",
     quote:
-      "CleanMate turns environmental goodwill into structured, provable action.",
+      "Cleanmate turns environmental goodwill into structured, provable action.",
     rating: 5,
   },
 ];
@@ -229,7 +228,7 @@ const moreTestimonials = [
     role: "Sustainability Educator",
     location: "Kochi, India",
     quote:
-      "CleanMate bridges the gap between awareness and real environmental action.",
+      "Cleanmate bridges the gap between awareness and real environmental action.",
     rating: 5,
   },
   {
@@ -247,7 +246,7 @@ const moreTestimonials = [
     role: "Green Projects Coordinator",
     location: "Valencia, Spain",
     quote:
-      "CleanMate simplifies organizing cleanups across multiple neighborhoods.",
+      "Cleanmate simplifies organizing cleanups across multiple neighborhoods.",
     rating: 5,
   },
   {
@@ -273,7 +272,7 @@ const moreTestimonials = [
     role: "Volunteer Lead",
     location: "Ilorin, Nigeria",
     quote:
-      "CleanMate helped us grow from small groups into a city-wide movement.",
+      "Cleanmate helped us grow from small groups into a city-wide movement.",
     rating: 5,
   },
   {

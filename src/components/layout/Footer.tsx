@@ -122,7 +122,7 @@ export default function Footer() {
 
         <div className="pt-6 lg:pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground text-center sm:text-left">
-            © 2026 CleanMate. All rights reserved.
+            © 2026 Cleanmate. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">

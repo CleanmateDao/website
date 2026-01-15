@@ -49,7 +49,7 @@ const categories: {
   {
     icon: BookOpen,
     title: "Getting Started",
-    description: "New to CleanMate? Start here",
+    description: "New to Cleanmate? Start here",
     count: 8,
   },
   {
@@ -101,7 +101,7 @@ const articles: { title: string; category: CategoryKey; content: string }[] = [
     title: "Understanding B3TR token rewards",
     category: "Rewards",
     content:
-      "B3TR tokens are CleanMate's reward currency:\n\n• Cleanup organizers earn 50 B3TR per completed event\n• Additional 10 B3TR per verified participant\n• Participants earn based on contribution and ratings\n• Streaks earn varying amounts when approved\n\nRewards become available after moderator verification. Claim your rewards to your connected VeChain wallet or bank account.",
+      "B3TR tokens are Cleanmate's reward currency:\n\n• Cleanup organizers earn 50 B3TR per completed event\n• Additional 10 B3TR per verified participant\n• Participants earn based on contribution and ratings\n• Streaks earn varying amounts when approved\n\nRewards become available after moderator verification. Claim your rewards to your connected VeChain wallet or bank account.",
   },
   {
     title: "Connecting your VeChain wallet",
