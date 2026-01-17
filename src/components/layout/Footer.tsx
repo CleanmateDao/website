@@ -26,7 +26,7 @@ export default function Footer() {
               <CleanMateLogoInvariant />
             </a>
             <p className="text-muted-foreground max-w-sm mb-6">
-              Empowering communities across the Globe to organize cleanups,
+              Empowering communities across the Globe to organize impacts,
               build networks, and earn rewards for environmental impact.
             </p>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">

@@ -33,7 +33,7 @@ import { toast } from "sonner";
 
 type CategoryKey =
   | "Getting Started"
-  | "Cleanups"
+  | "Impacts"
   | "Streaks"
   | "Rewards"
   | "Wallet"
@@ -54,7 +54,7 @@ const categories: {
   },
   {
     icon: MapPin,
-    title: "Cleanups",
+    title: "Impacts",
     description: "Organizing & joining events",
     count: 12,
   },
@@ -86,10 +86,10 @@ const categories: {
 
 const articles: { title: string; category: CategoryKey; content: string }[] = [
   {
-    title: "How to organize your first cleanup",
+    title: "How to organize your first impact",
     category: "Getting Started",
     content:
-      'To organize your first cleanup:\n\n1. Navigate to the Dashboard and click "Organize Cleanup"\n2. Fill in basic details: title, description, and category\n3. Set the location using the interactive map\n4. Choose a date and time\n5. Add optional cover images\n6. Submit your event for others to discover\n\nOnce published, participants can apply to join your cleanup. You\'ll be notified of new applications and can accept or reject them.',
+      'To organize your first impact:\n\n1. Navigate to the Dashboard and click "Make an Impact"\n2. Fill in basic details: title, description, and category\n3. Set the location using the interactive map\n4. Choose a date and time\n5. Add optional cover images\n6. Submit your event for others to discover\n\nOnce published, participants can apply to join your impact. You\'ll be notified of new applications and can accept or reject them.',
   },
   {
     title: "Recording your first streak video or photo",
@@ -101,7 +101,7 @@ const articles: { title: string; category: CategoryKey; content: string }[] = [
     title: "Understanding B3TR token rewards",
     category: "Rewards",
     content:
-      "B3TR tokens are Cleanmate's reward currency:\n\n• Cleanup organizers earn 50 B3TR per completed event\n• Additional 10 B3TR per verified participant\n• Participants earn based on contribution and ratings\n• Streaks earn varying amounts when approved\n\nRewards become available after moderator verification. Claim your rewards to your connected VeChain wallet or bank account.",
+      "B3TR tokens are Cleanmate's reward currency:\n\n• Impact organizers earn 50 B3TR per completed event\n• Additional 10 B3TR per verified participant\n• Participants earn based on contribution and ratings\n• Streaks earn varying amounts when approved\n\nRewards become available after moderator verification. Claim your rewards to your connected VeChain wallet or bank account.",
   },
   {
     title: "Connecting your VeChain wallet",
@@ -113,7 +113,7 @@ const articles: { title: string; category: CategoryKey; content: string }[] = [
     title: "Creating your profile",
     category: "Getting Started",
     content:
-      "Complete your profile during onboarding:\n\n1. Add your name or organization name and email\n2. Set your location for nearby cleanups\n3. Connect your wallet\n4. Complete KYC for organizing cleanups\n\nA complete profile helps you connect with the community and unlock all features.",
+      "Complete your profile during onboarding:\n\n1. Add your name or organization name and email\n2. Set your location for nearby impacts\n3. Connect your wallet\n4. Complete KYC for organizing impacts\n\nA complete profile helps you connect with the community and unlock all features.",
   },
   {
     title: "Claiming your rewards",
@@ -122,10 +122,10 @@ const articles: { title: string; category: CategoryKey; content: string }[] = [
       'To claim your earned rewards:\n\n1. Go to the Rewards page\n2. View your pending and available balance\n3. Click "Claim" on available rewards\n4. Choose your payment method (wallet or bank)\n5. Confirm the transaction\n\nWallet claims are instant. Bank transfers may take 2-3 business days.',
   },
   {
-    title: "Finding cleanups near you",
-    category: "Cleanups",
+    title: "Finding impacts near you",
+    category: "Impacts",
     content:
-      "Discover nearby cleanups:\n\n1. Open the Cleanups page\n2. Use Map view for visual discovery\n3. Or switch to List view for detailed filtering\n4. Filter by status, date, or category\n5. Click on a cleanup to see details\n6. Apply to join events that interest you\n\nYour profile location helps show relevant nearby events.",
+      "Discover nearby impacts:\n\n1. Open the Impacts page\n2. Use Map view for visual discovery\n3. Or switch to List view for detailed filtering\n4. Filter by status, date, or category\n5. Click on a impact to see details\n6. Apply to join events that interest you\n\nYour profile location helps show relevant nearby events.",
   },
 ];
 
@@ -149,22 +149,22 @@ const faqs: { question: string; answer: string; category: CategoryKey }[] = [
     category: "Streaks",
   },
   {
-    question: "How do I create my first cleanup event?",
+    question: "How do I create my first impact event?",
     answer:
-      'To create a cleanup event, go to the Dashboard and click "Organize Cleanup". Fill in the basic information (title, description, category), set the location using the map, choose a date and time, and optionally add cover images. Once submitted, your event will be visible to other users who can apply to join.',
-    category: "Cleanups",
+      'To create a impact event, go to the Dashboard and click "Make an Impact". Fill in the basic information (title, description, category), set the location using the map, choose a date and time, and optionally add cover images. Once submitted, your event will be visible to other users who can apply to join.',
+    category: "Impacts",
   },
   {
     question: "How do B3TR token rewards work?",
     answer:
-      "B3TR tokens are earned by participating in cleanups, organizing events, and submitting approved streaks. Organizers earn 50 B3TR per completed cleanup, plus 10 B3TR for each verified participant. Participants earn tokens based on their contribution and organizer ratings. Streaks earn varying B3TR amounts when approved.",
+      "B3TR tokens are earned by participating in impacts, organizing events, and submitting approved streaks. Organizers earn 50 B3TR per completed impact, plus 10 B3TR for each verified participant. Participants earn tokens based on their contribution and organizer ratings. Streaks earn varying B3TR amounts when approved.",
     category: "Rewards",
   },
   {
     question: "What is proof of work and how do I submit it?",
     answer:
-      "Proof of work consists of photos or videos showing your participation in a cleanup. After completing a cleanup, you can submit proof through the cleanup detail page. Include clear images of the cleanup area before and after, or photos of you actively participating. Moderators review submissions within 1-3 days.",
-    category: "Cleanups",
+      "Proof of work consists of photos or videos showing your participation in a impact. After completing a impact, you can submit proof through the impact detail page. Include clear images of the impact area before and after, or photos of you actively participating. Moderators review submissions within 1-3 days.",
+    category: "Impacts",
   },
   {
     question: "How do I connect my wallet to receive rewards?",
@@ -175,20 +175,20 @@ const faqs: { question: string; answer: string; category: CategoryKey }[] = [
   {
     question: "Can I participate without a wallet?",
     answer:
-      "Yes! You can join cleanups and submit streaks without connecting a wallet. However, you will need to connect a VeChain wallet to claim your B3TR token rewards. You can add your wallet anytime in Settings.",
+      "Yes! You can join impacts and submit streaks without connecting a wallet. However, you will need to connect a VeChain wallet to claim your B3TR token rewards. You can add your wallet anytime in Settings.",
     category: "Wallet",
   },
   {
-    question: "How do I find cleanups near me?",
+    question: "How do I find impacts near me?",
     answer:
-      "The Cleanups page shows events on both a map and list view. Use the map to visually find nearby events, or switch to list view and use filters to search by location, date, or category. The platform uses your set location from your profile to suggest nearby events.",
-    category: "Cleanups",
+      "The Impacts page shows events on both a map and list view. Use the map to visually find nearby events, or switch to list view and use filters to search by location, date, or category. The platform uses your set location from your profile to suggest nearby events.",
+    category: "Impacts",
   },
   {
     question: "How does the rating system work?",
     answer:
-      "After a cleanup ends, organizers rate participants on a 1-5 star scale based on their contribution, punctuality, and teamwork. These ratings build your reputation and may affect future reward amounts. Participants can also provide feedback on event organization.",
-    category: "Cleanups",
+      "After a impact ends, organizers rate participants on a 1-5 star scale based on their contribution, punctuality, and teamwork. These ratings build your reputation and may affect future reward amounts. Participants can also provide feedback on event organization.",
+    category: "Impacts",
   },
   {
     question: "How do I complete KYC verification?",
@@ -205,7 +205,7 @@ const faqs: { question: string; answer: string; category: CategoryKey }[] = [
   {
     question: "How do referrals work?",
     answer:
-      "Share your unique referral code with friends. When they sign up and complete their first cleanup or streak, you both earn bonus B3TR tokens. Find your referral code in Settings > Referrals (requires verified email).",
+      "Share your unique referral code with friends. When they sign up and complete their first impact or streak, you both earn bonus B3TR tokens. Find your referral code in Settings > Referrals (requires verified email).",
     category: "Account",
   },
 ];

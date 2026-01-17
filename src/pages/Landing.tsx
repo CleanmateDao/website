@@ -58,7 +58,7 @@ const features = [
     icon: location,
     title: "Discover Nearby",
     description:
-      "Find cleanup events in your area with our interactive map and smart location discovery.",
+      "Find impact events in your area with our interactive map and smart location discovery.",
   },
   {
     icon: camera,
@@ -70,7 +70,7 @@ const features = [
     icon: b3tr,
     title: "Earn Rewards",
     description:
-      "Get B3TR tokens for every cleanup and streak. Real environmental impact, real crypto rewards.",
+      "Get B3TR tokens for every impact and streak. Real environmental impact, real crypto rewards.",
   },
   {
     icon: verified,
@@ -91,7 +91,7 @@ const howItWorks = [
     step: "02",
     title: "Organize or Join",
     description:
-      "Create cleanups, join events, or record daily streaks on mobile.",
+      "Create impacts, join events, or record daily streaks on mobile.",
     icon: MapPin,
   },
   {
@@ -118,7 +118,7 @@ const testimonials = [
     role: "Climate Actor",
     location: "Ogun",
     quote:
-      "Seeing cleanup efforts verified on the app keeps everyone accountable and motivated.",
+      "Seeing impact efforts verified on the app keeps everyone accountable and motivated.",
     rating: 5,
   },
   {
@@ -145,7 +145,7 @@ const testimonials = [
     role: "Architect",
     location: "Canada",
     quote:
-      "Young people are more eager to join cleanups now that progress is visible.",
+      "Young people are more eager to join impacts now that progress is visible.",
     rating: 5,
   },
   {
@@ -172,7 +172,7 @@ const testimonials = [
     role: "Climate Action Volunteer",
     location: "Vancouver, Canada",
     quote:
-      "I love that real-world cleanup work is finally being tracked transparently.",
+      "I love that real-world impact work is finally being tracked transparently.",
     rating: 5,
   },
   {
@@ -202,7 +202,7 @@ const moreTestimonials = [
     role: "NGO Program Manager",
     location: "Saint-Louis, Senegal",
     quote:
-      "Tracking cleanups digitally has strengthened our reporting and partnerships.",
+      "Tracking impacts digitally has strengthened our reporting and partnerships.",
     rating: 5,
   },
   {
@@ -216,7 +216,7 @@ const moreTestimonials = [
   {
     image: "https://testingbot.com/free-online-tools/random-avatar/613",
     name: "Youssef El Amrani",
-    role: "City Cleanup Lead",
+    role: "City Impact Lead",
     location: "Oujda, Morocco",
     quote:
       "Volunteer coordination is smoother, and turnout has increased significantly.",
@@ -246,7 +246,7 @@ const moreTestimonials = [
     role: "Green Projects Coordinator",
     location: "Valencia, Spain",
     quote:
-      "Cleanmate simplifies organizing cleanups across multiple neighborhoods.",
+      "Cleanmate simplifies organizing impacts across multiple neighborhoods.",
     rating: 5,
   },
   {
@@ -255,7 +255,7 @@ const moreTestimonials = [
     role: "Environmental Technician",
     location: "Kisumu, Kenya",
     quote:
-      "The proof-of-work system gives credibility to every cleanup effort.",
+      "The proof-of-work system gives credibility to every impact effort.",
     rating: 5,
   },
   {
@@ -281,7 +281,7 @@ const moreTestimonials = [
     role: "Climate Initiative Partner",
     location: "Zurich, Switzerland",
     quote:
-      "The platform turns community cleanup into measurable environmental impact.",
+      "The platform turns community impact into measurable environmental impact.",
     rating: 5,
   },
 ];
@@ -389,7 +389,7 @@ export default function Landing() {
               </h1>
 
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-lg">
-                Join thousands of environmental champions organizing cleanups
+                Join thousands of environmental champions organizing impacts
                 across the Globe. Real impact, real crypto rewards.
               </p>
 
@@ -454,7 +454,7 @@ export default function Landing() {
                 <div className="relative rounded-3xl overflow-hidden border border-border shadow-2xl">
                   <img
                     src={heroImage}
-                    alt="Environmental cleanup"
+                    alt="Environmental impact"
                     className="w-full h-[340px] md:h-[500px] object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
@@ -468,7 +468,7 @@ export default function Landing() {
                             150+
                           </p>
                           <p className="text-xs md:text-sm text-muted-foreground">
-                            Cleanups
+                            Impacts
                           </p>
                         </div>
                         <div className="border-x border-border">
@@ -596,7 +596,7 @@ export default function Landing() {
               <span className="text-muted-foreground">to Make an Impact</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Powerful tools designed to help you organize cleanups, build
+              Powerful tools designed to help you organize impacts, build
               community, and track your environmental contributions.
             </p>
           </motion.div>
@@ -743,7 +743,7 @@ export default function Landing() {
               <br />a Real Difference
             </h2>
             <p className="text-lg text-white/70 max-w-2xl mx-auto mb-12">
-              Every cleanup counts. See the collective impact of our global
+              Every impact counts. See the collective impact of our global
               community.
             </p>
 
@@ -939,7 +939,7 @@ export default function Landing() {
                 </h2>
                 <p className="text-lg text-white/70 mb-8 max-w-xl mx-auto">
                   Join thousands of environmental champions and start organizing
-                  your first cleanup today. Takes less than 2 minutes.
+                  your first impact today. Takes less than 2 minutes.
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

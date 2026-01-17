@@ -35,8 +35,8 @@ export default function PrivacyPolicy() {
       
 • <b>Account Information</b>: Name, email address, profile photo, location (city/country), and environmental interests when you create an account.
 • <b>Wallet Information</b>: Cryptocurrency wallet addresses for receiving B3TR token rewards.
-• <b>Cleanup Data</b>: Information about cleanups you organize or participate in, including locations, dates, and participation records.
-• <b>Proof of Work</b>: Photos and videos you submit as evidence of cleanup participation.
+• <b>Impact Data</b>: Information about impacts you organize or participate in, including locations, dates, and participation records.
+• <b>Proof of Work</b>: Photos and videos you submit as evidence of impact participation.
 • <b>Communications</b>: Messages and feedback you send to us or other users through the Platform.
 • <b>KYC Information</b>: Identity documents and verification data when required for compliance purposes.`,
     },
@@ -44,10 +44,10 @@ export default function PrivacyPolicy() {
       title: "2. How We Use Your Information",
       content: `We use the information we collect to:
       
-• Provide, maintain, and improve the CleanUp Platform
+• Provide, maintain, and improve the IMPACT Platform
 • Process and distribute B3TR token rewards
-• Verify cleanup participation and proof of work submissions
-• Connect you with cleanup events and other environmental champions
+• Verify impact participation and proof of work submissions
+• Connect you with impact events and other environmental champions
 • Send you notifications about events, rewards, and platform updates
 • Analyze usage patterns to improve user experience
 • Comply with legal obligations and prevent fraud
@@ -57,8 +57,8 @@ export default function PrivacyPolicy() {
       title: "3. Information Sharing",
       content: `We may share your information in the following circumstances:
       
-• <b>Public Profile</b>: Your name, profile photo, and cleanup participation history may be visible to other users.
-• <b>Event Organizers</b>: When you join a cleanup, the organizer can see your basic profile information.
+• <b>Public Profile</b>: Your name, profile photo, and impact participation history may be visible to other users.
+• <b>Event Organizers</b>: When you join a impact, the organizer can see your basic profile information.
 • <b>Blockchain</b>: Wallet addresses and reward transactions are recorded on the public blockchain.
 • <b>Service Providers</b>: We share data with third-party services that help us operate the Platform (hosting, analytics, etc.).
 • <b>Legal Requirements</b>: We may disclose information when required by law or to protect rights and safety.
@@ -88,7 +88,7 @@ However, no method of transmission over the Internet is 100% secure, and we cann
 • <b>Restriction</b>: Request restriction of processing
 • <b>Withdraw Consent</b>: Withdraw consent where processing is based on consent
 
-To exercise these rights, please contact us through the Help Center or at support@cleanupmatedao.com.`,
+To exercise these rights, please contact us through the Help Center or at support@impactmatedao.com.`,
     },
     {
       title: "6. Cookies and Tracking",
@@ -118,17 +118,17 @@ When you delete your account, we will delete or anonymize your personal informat
     },
     {
       title: "9. Children's Privacy",
-      content: `CleanUp is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately.`,
+      content: `IMPACT is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately.`,
     },
     {
       title: "10. Changes to This Policy",
-      content: `We may update this Privacy Policy from time to time. We will notify you of significant changes by posting the new policy on the Platform and updating the "Last Updated" date. Your continued use of CleanUp after changes constitutes acceptance of the updated policy.`,
+      content: `We may update this Privacy Policy from time to time. We will notify you of significant changes by posting the new policy on the Platform and updating the "Last Updated" date. Your continued use of IMPACT after changes constitutes acceptance of the updated policy.`,
     },
     {
       title: "11. Contact Us",
       content: `If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:
       
-• Email: support@cleanupmatedao.com
+• Email: support@impactmatedao.com
 • Help Center: Available through the Platform
 
 We will respond to your inquiry within 30 days.`,
@@ -194,7 +194,7 @@ We will respond to your inquiry within 30 days.`,
           {/* Introduction */}
           <div className="bg-muted/50 rounded-2xl p-6 mb-8">
             <p className="text-muted-foreground leading-relaxed">
-              At CleanUp, we are committed to protecting your privacy and
+              At IMPACT, we are committed to protecting your privacy and
               ensuring transparency about how we collect, use, and safeguard
               your personal information. This Privacy Policy explains our data
               practices and your rights regarding your personal data.
