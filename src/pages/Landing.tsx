@@ -561,7 +561,7 @@ export default function Landing() {
             Trusted by leading environmental organizations
           </p>
           <div className="flex flex-wrap items-center justify-center gap-12 opacity-50">
-            {["VeChain", "VeBetterDAO", "Ecoferad", "RevoStudioz"].map(
+            {["VeChain", "VeBetterDAO", "PlastiBuild", "Ecoferad", "RevoStudioz"].map(
               (brand) => (
                 <div
                   key={brand}
